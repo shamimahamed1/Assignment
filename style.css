@@ -1,71 +1,501 @@
 
+.banner-conteinar{
+  width: 100%;
+  height: 652px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./Hero-bg.png);
 
-/* Hero image */
-#hero{
-    background-image: url(Hero-bg.png);
-    height: 900px;
-    width: 100%;
-    background-size: cover;
-    margin: 20px 20px;
-}
-/* Group image */
-#hero .hero-content .book {
-    width: 400px;
-    height: 400px;
-    display: flex;
-    margin-left: 40%;
-    padding-top: 40px;
-}
-/* In the near future, I hope to become a Developer. */
-#hero .hero-content .heading {
-    text-align: center;
-    font-size: 70px; font-family: 'Times New Roman', Times, serif;
-    font-weight: 800;
-    color: rgb(76, 8, 144);}
-
-    /* Hard working people never fail. Every: . . . . .; */
-#hero .hero-content .description {
-    text-align: center;
-    font-size: 27px;
 }
 
- button {
-    position: absolute;
-    top: 57%;
-    left: 45%; 
-    font-size: 25px;
-    border-radius: 7px;
-    padding: 12px;
-    background-color: rgb(10, 104, 104);
-    color: #fff; 
-    text-align: center; 
- }
- .paper .paper1 {
-    text-align: center;
-    margin-top: 250px;
-    font-size: 60px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
- }
- .paper .paper2 {
-    text-align: center;
-    font-size: 27px;
- }
- .coding .use1{
-    font-size: 45px;
-    font-family: Arial, Helvetica, sans-serif;
+.baner-contein{
+  width: 80%;
+  height: 582px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
- }
-.coding{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.baner-contein h2{
+  text-align: center;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  letter-spacing: 0%;
+  text-align: center;
+  
+  
+}
 
-  }
-  .coding .layer1{
-    width: 30%;
-    height: 400px;
-  }
+.baner-contein p{
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  opacity: 0.7;
+  margin-bottom: 20px;
 
+}
 
+.btn-1{
+  width: 208px;
+  height: 66px;
+  border-radius: 8px;
+  border: none;
+
+  background: rgb(13, 19, 33);
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
  
+}
+
+/* 
+.web-develop{
+  height: 1395px;
+  width: 90%;
+  margin: 0 auto;
+  border: 3px solid red;
+  margin-top: 75px ;
+  
+}
+
+.web-devlop-conteinar{
+  height: 1235px;
+  width: 90%;
+  margin: 60px auto 80px;
+  border: 3px solid red;
+  padding-top: 40px;
+  
+
+}
+
+.web-textheader{
+  height: 115px;
+  border: 3px solid red;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.web-develop-mainbody{
+  height: 1072px;
+  width: 90%;
+  margin: 0 auto;
+  border: 2px solid red;
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 128px;
+
+}
+.contein{
+  height: 240px;
+  width: 90%;
+  border: 3px solid red;
+  margin: 0 auto;
+  
+}
+.web-textheader .heading{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+  margin-top: 5px;
+}
+.web-textheader, p{
+  text-align: center;
+  margin-top: 20px; 
+  line-height: 25px;
+}
+.contein {
+  position: static;
+  height: 850px;
+  width: 240px; */
+
+
+.important{
+  height: 1295px;
+  width: 90%;  
+  margin: 0 auto;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+}
+
+.important-title{
+  height: 113px;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+
+.important-title h1{
+  color: rgb(13, 19, 33);
+  text-align: center;
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.important-title p{
+  color: rgb(13, 19, 33);
+  opacity: 0.7;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;   
+}
+
+.important-mainbody{
+  height: 1072px;
+  width: 80%;   
+  margin: 0 auto;
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+.important-1{
+  height: 240px;
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: black;
+  display: flex;
+  border-radius: 16px;
+  background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);   
+}
+
+.important-2{
+  height: 240px;
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: black;
+  display: flex;
+  border-radius: 16px;
+  background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);   
+}
+
+.important-3{
+  height: 240px;
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: black;
+  display: flex;
+  border-radius: 16px;
+  background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);   
+}
+
+
+.important-text-1, .important-text-2, .important-text-3{
+  height: 219px;
+  width: 50%;
+  margin: 0 auto;   
+}
+
+.important-1 ,.important-2-text,.important-3 h3{
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.important-1-text,.important-2-text,.important-3  p{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 16px;
+}
+
+
+#imp-btn{
+  width: 171px;
+  height: 47px;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+
+.my-inspiration{
+  height: 775px; 
+  width: 100%;
+  margin: 0 auto;  
+  margin-top: 80px;
+}
+
+.my-inspiration-text{
+  height: 113px;
+  width: 80%;   
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-inspiration-text h2{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 2px;
+}
+.my-inspiration-text p{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.my-inspiration-vedio{
+  height: 614px;
+  width: 90%;
+  margin: 0 auto;  
+  margin-top: 48px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-inspration-vedio{
+  height: 550px;
+  width: 95%;  
+}
+
+.mission-conteinar{
+  height: auto;
+  width: 90%;    
+  margin: 0 auto;
+  margin-top: 121px;
+  padding-bottom: 50px;
+}
+
+.mission-text{
+  height: 113px;
+  width: 946px;
+  margin: 0 auto;  
+}
+
+.mission-text h1{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 26px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.mission-text p{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  text-align: center;
+}
+
+.mission-program{
+  border: 1px solid black;
+ width: 100% ;
+ max-width: 1240px;
+ height: auto;
+ margin: 0 auto;
+ margin-top:46px ;
+ display: flex;
+ justify-content: space-between;
+}
+
+.mission-html{
+  width: 364px;
+  height: 299px;   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  padding-bottom: 20px;  
+}
+
+.mission-css{
+  width: 364px;
+  height: 299px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+  padding-bottom: 20px;
+}
+
+.mission-js{
+  width: 364px;
+  height: 299px; 
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 16px;
+  padding-bottom: 20px;
+  background: rgba(255, 76, 30, 0.05);
+}
+
+.mission-success{
+  width: 284px;
+  height: 219px;  
+}
+
+.mission-success h4{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 800;
+  
+} 
+
+.mission-success p{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.mission-success h6{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.lernmore-link{
+  text-decoration: none;
+}
+
+
+.support-conteinar{
+  width: 90%;
+  height: 313px;
+  margin: 0 auto;   
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(handshake.jpg);
+  background-position: center;
+  border-radius: 16px;
+}
+
+.support-contain{
+  height: 185px;
+  width: 90%;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.support-text{
+  height: 104px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 0;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.support-text h3{
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 22px;
+  font-weight: 500;    
+  text-align: center; 
+}
+
+.support-text p{
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin-top: 0px;
+}
+  
+.sun-input{
+  width: 548px;
+  height: 47px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+}
+
+.support-sumit{
+  width: 120px;
+  height: 47px; 
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  color: rgb(13, 19, 33);
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Footer Start */
+
+footer{
+  height: 100px;
+  width: 100%;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03)
+}
+.footer-icon{
+  display: flex;
+  gap: 15px;
+  
+}
+
+.footer-unit p{
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+}
